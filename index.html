@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Software Developer & Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo"><DevPortfolio <span>/</span>></a>
+      <nav class="nav-links" id="nav-links">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#achievements" class="nav-link">Achievements</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button id="theme-toggle" class="icon-btn" aria-label="Toggle Theme" title="Switch Theme">☀️/🌙</button>
+        <button id="menu-toggle" class="menu-btn" aria-label="Open Menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- 1. HOME SECTION -->
+  <section id="home" class="hero section">
+    <div class="bg-glow"></div>
+    <div class="container hero-grid">
+      <div class="hero-content reveal">
+        <span class="badge">Available for Opportunities</span>
+        <h1>Hi, I'm <span class="gradient-text">[Your Full Name]</span></h1>
+        <h2 class="typing-wrapper">I build <span id="typed-text"></span><span class="cursor">|</span></h2>
+        <p class="tagline">
+          A passionate software developer and UI/UX enthusiast crafting clean, responsive, and user-centered digital experiences from concept to deployment.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View My Projects</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="profile-card">
+          <!-- Replace src with your own photo file e.g., assets/profile.jpg -->
+          <img src="https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?auto=format&fit=crop&w=600&q=80" alt="Developer Profile" class="profile-img" />
+          <div class="floating-stat stat-1">
+            <strong>3+</strong>
+            <span>Projects Built</span>
+          </div>
+          <div class="floating-stat stat-2">
+            <strong>Full-Stack</strong>
+            <span>Web & Software</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. ABOUT ME SECTION -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">01. Introduction</span>
+        <h2>About Me</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text glass-card reveal">
+          <h3>Who I Am</h3>
+          <p>
+            Hello! I am <strong>[Your Full Name]</strong>, a dedicated developer with a strong foundation in object-oriented programming, responsive web design, and software quality assurance. I enjoy breaking down complex problems into clean, modular, and maintainable code.
+          </p>
+          <p>
+            Whether building interactive web applications, mobile interfaces, or game mechanics, my focus is always on performance, accessibility, and intuitive user experience.
+          </p>
+          <div class="personal-info-grid">
+            <div><span>Location:</span> Philippines</div>
+            <div><span>Focus:</span> Web & Software Dev</div>
+            <div><span>Email:</span> your.email@example.com</div>
+            <div><span>Status:</span> Open to Work / Internships</div>
+          </div>
+        </div>
+
+        <div class="education-box glass-card reveal">
+          <h3>Educational Background</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <span class="timeline-date">2023 – Present</span>
+              <h4>Bachelor of Science in Information Technology / Computer Science</h4>
+              <p class="institution">[Your University / College Name]</p>
+              <p class="desc">Relevant Coursework: Data Structures & Algorithms, Web Systems & Technologies, Object-Oriented Programming, Software Engineering.</p>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-date">2021 – 2023</span>
+              <h4>Senior High School – ICT / STEM Strand</h4>
+              <p class="institution">[Your Senior High School Name]</p>
+              <p class="desc">Graduated with Honors; focused on programming fundamentals and computer hardware/software systems.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. SKILLS SECTION -->
+  <section id="skills" class="section alt-bg">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">02. Technical Stack</span>
+        <h2>Skills & Technologies</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-category glass-card reveal">
+          <h3>Frontend Development</h3>
+          <div class="skill-bar-item">
+            <div class="skill-info"><span>HTML5 & Semantic Markup</span><span>95%</span></div>
+            <div class="bar"><div class="fill" style="width: 95%"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-info"><span>CSS3 / Flexbox / Grid / Responsive UI</span><span>90%</span></div>
+            <div class="bar"><div class="fill" style="width: 90%"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-info"><span>JavaScript (ES6+)</span><span>85%</span></div>
+            <div class="bar"><div class="fill" style="width: 85%"></div></div>
+          </div>
+        </div>
+
+        <div class="skill-category glass-card reveal">
+          <h3>Programming & Logic</h3>
+          <div class="skill-bar-item">
+            <div class="skill-info"><span>Java & Kotlin (OOP)</span><span>85%</span></div>
+            <div class="bar"><div class="fill" style="width: 85%"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-info"><span>GDScript / Game Logic</span><span>80%</span></div>
+            <div class="bar"><div class="fill" style="width: 80%"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-info"><span>C# & Scripting Automation</span><span>75%</span></div>
+            <div class="bar"><div class="fill" style="width: 75%"></div></div>
+          </div>
+        </div>
+
+        <div class="skill-category glass-card reveal">
+          <h3>Tools & Workflow</h3>
+          <div class="tags-cloud">
+            <span class="tech-pill">Git & GitHub</span>
+            <span class="tech-pill">Vercel Deployment</span>
+            <span class="tech-pill">VS Code</span>
+            <span class="tech-pill">Android Studio</span>
+            <span class="tech-pill">Godot 4 Engine</span>
+            <span class="tech-pill">UI/UX Prototyping</span>
+            <span class="tech-pill">Software QA & Testing</span>
+            <span class="tech-pill">REST APIs</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. PROJECTS SECTION -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">03. Featured Work</span>
+        <h2>Projects</h2>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="filter-bar reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web Dev</button>
+        <button class="filter-btn" data-filter="app">Mobile / Game</button>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <article class="project-card glass-card reveal" data-category="app">
+          <div class="project-img-wrap">
+            <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=600&q=80" alt="2D Grid Puzzle Game" />
+          </div>
+          <div class="project-body">
+            <span class="project-cat">Game Development</span>
+            <h3>2D Hamiltonian Grid Puzzle</h3>
+            <p>A mobile-first 2D puzzle game built in Godot 4 featuring a 7x4 matrix pathfinding mechanic, responsive aspect-ratio scaling, and event-driven touch controls.</p>
+            <div class="project-tech">
+              <span>Godot 4</span><span>GDScript</span><span>UI/UX</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/yourusername" target="_blank" rel="noopener">Source Code ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card glass-card reveal" data-category="app">
+          <div class="project-img-wrap">
+            <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=600&q=80" alt="Android Glassmorphism UI" />
+          </div>
+          <div class="project-body">
+            <span class="project-cat">Android Development</span>
+            <h3>Modular Glassmorphism UI & Auth App</h3>
+            <p>Native Android interface featuring translucent glassmorphic overlay views, structured view replacement hierarchies, and clean user input validation routing.</p>
+            <div class="project-tech">
+              <span>Java</span><span>Kotlin</span><span>Android SDK</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/yourusername" target="_blank" rel="noopener">Source Code ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card glass-card reveal" data-category="web">
+          <div class="project-img-wrap">
+            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80" alt="IT Solutions Landing Page" />
+          </div>
+          <div class="project-body">
+            <span class="project-cat">Web Development</span>
+            <h3>NexTech IT Consultancy Portal</h3>
+            <p>A responsive business website designed for an IT infrastructure and cybersecurity consultancy, showcasing service tiers, client onboarding, and interactive forms.</p>
+            <div class="project-tech">
+              <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/yourusername" target="_blank" rel="noopener">Source Code ↗</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. ACHIEVEMENTS SECTION -->
+  <section id="achievements" class="section alt-bg">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">04. Milestones</span>
+        <h2>Achievements & Certifications</h2>
+      </div>
+      <div class="achievements-grid">
+        <div class="achievement-card glass-card reveal">
+          <div class="ach-icon">🏆</div>
+          <div>
+            <span class="ach-year">2026</span>
+            <h3>Dean's Lister / Academic Excellence</h3>
+            <p>Recognized for outstanding academic performance in programming and systems analysis courses.</p>
+          </div>
+        </div>
+        <div class="achievement-card glass-card reveal">
+          <div class="ach-icon">📜</div>
+          <div>
+            <span class="ach-year">2025</span>
+            <h3>Responsive Web Design Certification</h3>
+            <p>Completed comprehensive training in modern HTML5, CSS Grid/Flexbox, and mobile-first accessibility.</p>
+          </div>
+        </div>
+        <div class="achievement-card glass-card reveal">
+          <div class="ach-icon">💡</div>
+          <div>
+            <span class="ach-year">2025</span>
+            <h3>Software Engineering & QA Seminar</h3>
+            <p>Participated in an industry workshop on version control with Git, CI/CD deployment, and software testing.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. CONTACT ME SECTION -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">05. Get In Touch</span>
+        <h2>Contact Me</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info glass-card reveal">
+          <h3>Let's Connect</h3>
+          <p>Have a question, project idea, or collaboration opportunity? Feel free to reach out through any of the channels below or send a direct message.</p>
+          <ul class="contact-list">
+            <li><strong>Email:</strong> <a href="mailto:your.email@example.com">your.email@example.com</a></li>
+            <li><strong>GitHub:</strong> <a href="https://github.com/yourusername" target="_blank" rel="noopener">github.com/yourusername</a></li>
+            <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">linkedin.com/in/yourusername</a></li>
+            <li><strong>Location:</strong> San Jose del Monte, Bulacan, Philippines</li>
+          </ul>
+        </div>
+
+        <form class="contact-form glass-card reveal" id="contact-form">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" required placeholder="Juan Dela Cruz" />
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" required placeholder="juan@example.com" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" required placeholder="Write your message here..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full-width">Send Message</button>
+          <p id="form-status" class="form-status"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> [Your Full Name]. Built with HTML, CSS & JavaScript. Deployed on Vercel.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
